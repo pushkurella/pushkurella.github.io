@@ -4,6 +4,7 @@
   <title>My Book Review</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./Images/032-book.png" type="image/png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -21,42 +22,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-<!--
-      <a class="navbar-brand btn btn-lg " href="#myPage">
-          <ul class="nav navbar-nav navbar-">
-              <li>
-                  <a href="#myPage"><span class="glyphicon glyphicon-home"></span>HOME</a>     
-              </li>
-          </ul>
-          
-        </a>
--->
+
          
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage"><span class="glyphicon glyphicon-home"></span>  HOME</a></li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <ul class="nav navbar-nav navbar-left">
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="#myPage"><span class="glyphicon glyphicon-home"></span>HOME</a></li>
+          <li></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#laws">LAWS</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#principles">PRINCIPLES</a></li>
+        <li><a href="#storyboard">STORYBOARD</a></li>
+        <li><a href="#usability">USABILITY TESTING</a></li>
+        <li><a href="#pricing">USABILITY PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
-          <li>
-         	<form class="navbar-form" role="search">
-					<div class="input-group">
-						<input type="search" id="mySearch" class="form-control" placeholder="Search for topics..." autocomplete="on">
-						<span class="input-group-btn">
-							<button type="submit" class="btn btn-default" onclick="SearchFunction">
-								<span class="glyphicon glyphicon-search">
-									<span class="sr-only">Search...</span>
-								</span>
-							</button>
-						</span>
-					</div>
-				</form> 
-          </li>
+        
       </ul>  
         
     </div>
@@ -97,23 +77,21 @@ a usability consultant for a wide variety of clients
 International Monetary Fund, and many others. Krug offers in-house 
 consulting sessions where he lectures on usability testing and provides 
 targeted advice to clients on web usability strategies. </p>
-      <br><button class="btn btn-default btn-lg" id="btndesign" onclick="gotocrugpage()">Contact Crug</button>
+<!--        class="btn btn-default btn-lg"-->
+      <br><button class="btn btn-default btn-lg" id="btndesign" onclick="gotocrugpage()">Contact  Crug</button>
     </div>
     <div class="col-sm-5 container-fluid img-responsive" id="author" >
-<!--      <span class="glyphicon glyphicon-signal logo"></span>-->
-<!--
-        <img  height="50%"  src="../Images/book3.jpg" alt="book image" />
+<img src="../pushkurella.github.io/Images/book3.jpg" alt="creative thinking image" class="img-rectangle img-responsive" class="img-rounded"/>
     </div>
--->
         
   </div>
 </div>
-<div class="container-fluid bg-grey" id="laws">
+<div class="container-fluid bg-grey" id="principles">
     <ol class="breadcrumb" id="leftpostn">
         <li class="breadcrumb-item">
           <a href="#myPage">Home</a>
         </li>
-        <li class="breadcrumb-item active">Laws</li>
+        <li class="breadcrumb-item active">Principles</li>
       </ol>
   <div class="row">
     <div class="col-sm-6">
@@ -154,13 +132,13 @@ erode the confidence in the site and user would never visit the site again.
   </div>
 </div>
 
-<!-- Container (Services Section) -->
-        <div id="services" class="container-fluid text-center">
+<!-- Container (storyboard Section) -->
+        <div id="storyboard" class="container-fluid text-center">
     <ol class="breadcrumb" id="leftpostn">
         <li class="breadcrumb-item">
           <a href="#myPage">Home</a>
         </li>
-        <li class="breadcrumb-item active">Services</li>
+        <li class="breadcrumb-item active">storyboard</li>
       </ol>
   <h2>Goodwill Reservoir</h2>
             <div class="row slideanim">
@@ -214,7 +192,7 @@ erode the confidence in the site and user would never visit the site again.
   </div>
 </div>
     <hr>
-    <div id="services" class="container-fluid text-center">
+    <div id="storyboard" class="container-fluid text-center">
    
   <h2>Goodwill Reservoir continued...</h2>
   <h4>After getting pissed off with a bad UI designed website JOHN visits another website which follows all the UI design and principles, check out JOHN's series of reactions now...</h4>
@@ -256,13 +234,13 @@ erode the confidence in the site and user would never visit the site again.
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<!-- Container (usability Section) -->
+<div id="usability" class="container-fluid text-center bg-grey">
     <ol class="breadcrumb" id="leftpostn">
         <li class="breadcrumb-item">
           <a href="#myPage">Home</a>
         </li>
-        <li class="breadcrumb-item active">Portfolio</li>
+        <li class="breadcrumb-item active">Usability</li>
       </ol>
   <h2>ALL ABOUT USABILITY</h2><br>
   <h4>Sequential steps that needs to be followed</h4>
@@ -326,14 +304,14 @@ erode the confidence in the site and user would never visit the site again.
       <div class="nothumbnail">
        <img src="../pushkurella.github.io/Images/472-yelp.png" alt="Happy Smiley" class="size"/>
         <p><strong>8</strong></p>
-        <p>Make the smallest and simplest change you can; you can spend the time to implement the perfect solution later.</p>
+        <p>Make the smallest and simplest change you can, you can spend the time to implement the perfect solution later.</p>
       </div>
       </div>
     </div>
   </div><br>
     
   
-  <h2>LAWS OF USABILITY</h2>
+  <h2 style="text-align: center">&nbsp;THREE LAWS OF USABILITY</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -345,7 +323,7 @@ erode the confidence in the site and user would never visit the site again.
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"Don't make the user think, what it is and how to use it should be self-evident."<br></h4>
+        <h4>"Don't make the user think, what it is and how to use, it should be self-evident."<br></h4>
       </div>
       <div class="item">
         <h4>"It doesn't matter how many times we have to click, as long as each is an easy choice."<br></h4>
@@ -386,7 +364,7 @@ erode the confidence in the site and user would never visit the site again.
           <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspNO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TESTING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
         </div>
         <div class="panel-body">
-          <p>The web sites are not tested because the project don't have enough <strong>time</strong> or <strong>money</strong> or <strong>expertise</strong> or <strong>usability lab</strong> or <strong>don't know how to interpret the results</strong> or may be <strong>no one cares.</strong>
+          <p>The web sites are not tested because the project don't have enough time or money or expertise or usability lab or don't know how to interpret the results or may be no one cares.
 </p>
         </div>
         <div class="panel-footer">
@@ -406,7 +384,7 @@ erode the confidence in the site and user would never visit the site again.
         </div>
         <div class="panel-body">
       
-          <p><strong>8 or more</strong> number of users  are required per test who are carefully <strong>selected to match target audience</strong> and the testing is conducted in a <strong>usability lab</strong> under an <strong>experienced usability professional.</strong>
+          <p>8 or more number of users  are required per test who are carefully selected to match target audience and the testing is conducted in a usability lab under an experienced usability professional.
 </p>
         </div>
         <div class="panel-footer">
@@ -424,8 +402,7 @@ erode the confidence in the site and user would never visit the site again.
           <h1>LOST-OUR-LEASE TESTING</h1>
         </div>
         <div class="panel-body">
-            <p><strong>3 or 4</strong> people who <strong>uses the web</strong> will be considered as users and the testing will be done in any <strong>office or conference room</strong> under a <strong>reasonable patient human being.</strong>
-work to do
+            <p>3 or 4 people who has the knowledge of using the web will be considered as users and the testing will be done in any office or conference room under a reasonable patient human being.
 </p>
         </div>
         <div class="panel-footer">
@@ -456,7 +433,7 @@ for each user) or less</h4>
   <h2 class="text-center">Contact</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      
       <p><span class="glyphicon glyphicon-map-marker"></span> Doon valley, Kitchener, CA</p>
       <p><span class="glyphicon glyphicon-phone"></span> +01 1515151515</p>
       <p><span class="glyphicon glyphicon-envelope"></span> pushpak.kurella7@gmail.com</p>
@@ -484,8 +461,7 @@ for each user) or less</h4>
   </div>
 </div>
 
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
+
 <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(41.878114, -87.629798);
@@ -502,10 +478,25 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
 <footer class="container-fluid text-center">
+    
+    <ul class="nav navbar-nav navbar-center">
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="#myPage">HOME</a></li>
+          <li></li>
+        <li><a href="#about">&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#principles">&nbsp;&nbsp;&nbsp;PRINCIPLES&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#storyboard">&nbsp;&nbsp;&nbsp;STORYBOARD&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#usability">&nbsp;&nbsp;&nbsp;USABILITY TESTING&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#pricing">&nbsp;&nbsp;&nbsp;USABILITY PRICING&nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#contact">&nbsp;&nbsp;&nbsp;CONTACT&nbsp;&nbsp;&nbsp;</a></li>
+        
+      </ul>
+   <ul><li></li></ul>
+    <br>
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Copyright @ 2018 Pushpak,Inc. <a href="https://pushpakkvictory.wixsite.com/resume" title="My portfolio">More about me</a></p>
+  <p>Copyright @ 2018 Pushpak Inc. All rights reserved. <a href="https://pushpakkvictory.wixsite.com/resume" title="My portfolio">More about me</a></p>
 </footer>
 
 <script src="../pushkurella.github.io/HomePage.js"></script>
