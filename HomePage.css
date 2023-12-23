@@ -209,8 +209,8 @@ hr {
 }
 #jumbotronheader{
     height: 820px;
-    padding-top: 50px;
-    padding-left: 133px;
+    padding-top: 5%;
+    padding-left: 10%;
     padding-bottom: 40px;
     align-content: center;
 
@@ -238,7 +238,7 @@ background-position: top center;
     border-radius: 50%;
 }
 .img-responsive {
-    display: block;
+    display: flex;
     height: auto;
     max-width: 100%;
 }
